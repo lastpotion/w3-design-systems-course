@@ -1,0 +1,129 @@
+/* Tweet Design */
+.w3__card--tweet {
+  display: flex;
+  flex-direction: row;
+  padding: 16px;
+  font-family: sans-serif;
+}
+
+.w3__card--tweet .w3__card-avatar {
+  max-width: 48px;
+  max-height: 48px;
+  border-radius: 24px;
+  margin-right: 16px;
+  overflow: hidden;
+}
+
+.w3__card--tweet .w3__card-avatar img {
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  object-fit: cover;
+}
+
+.w3__card--tweet .w3__card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+.w3__card--tweet .w3__card-header {
+  display: flex;
+  align-items: center;
+}
+
+.w3__card--tweet .w3__card-header h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.w3__card--tweet .w3__card-body {
+  margin: 8px 0 16px;
+  text-align: left;
+}
+.w3__card--tweet .w3__card-body p {
+  margin: 0;
+}
+.w3__card--tweet .w3__card-image img {
+  max-width: 100%;
+  margin-top: 8px;
+  border-radius: 8px;
+}
+
+.w3__card--tweet .w3__card-actions {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+}
+
+.w3__card--tweet .w3__card-actions a {
+  margin-left: 8px;
+  text-decoration: none;
+  color: #1da1f2;
+}
+
+.w3__card--tweet .w3__card-actions a:hover {
+  text-decoration: underline;
+}
+
+
+/* Instagram Design */
+.w3__card--instagram {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-family: sans-serif;
+}
+
+.w3__card--instagram .w3__card-avatar {
+  align-self: center;
+  margin-bottom: 16px;
+}
+
+.w3__card--instagram .w3__card-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.w3__card--instagram .w3__card-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 16px;
+}
+
+.w3__card--instagram .w3__card-header h2 {
+  margin: 0;
+  font-size: 18px;
+  text-align: center;
+}
+
+.w3__card--instagram .w3__card-body {
+  order: 2;
+  margin: 8px 0;
+  padding: 0 16px 0 16px;
+  text-align: left;
+}
+
+.w3__card--instagram .w3__card-image img {
+  order:1;
+  max-width: 100%;
+}
+
+.w3__card--instagram .w3__card-actions {
+  display: flex;
+  align-items: center;
+  padding: 0 16px 0 16px;
+}
+
+.w3__card--instagram .w3__card-actions a {
+  text-decoration: none;
+  color: #262626;
+}
+
+.w3__card--instagram .w3__card-actions a:hover {
+  text-decoration: underline;
+}
