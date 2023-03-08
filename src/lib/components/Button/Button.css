@@ -1,0 +1,73 @@
+.w3__button{
+  border: none;
+  border-radius: 4px;
+  padding: 8px 16px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  color: #2b2b2b;
+  display:flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+.w3__button--transparent{
+  background-color: transparent;
+  color: #222;
+}
+.w3__button--transparent:hover{
+  background-color: #eee;
+}
+.w3__button--primary{
+  background-color: #6ABBD9;
+  color: #222;
+}
+.w3__button--primary:hover{
+  background-color: #4BADD1;
+}
+
+.w3__button--secondary{
+  background-color: #cb5d34;
+  color: #fff;
+}
+.w3__button--secondary:hover{
+  background-color: #ac4f2c;
+}
+
+.w3__button--success{
+  background-color: #28a745;
+  color: #fff;
+}
+.w3__button--success:hover{
+  background-color: #218838;
+}
+
+.w3__button--danger{
+  background-color: #dc3545;
+  color: #fff;
+}
+.w3__button--danger:hover{
+  background-color: #c82333;
+}
+
+.w3__button--small{
+  font-size: 14px;
+  padding: 4px 8px;
+}
+
+.w3__button--large{
+
+  font-size: 20px;
+  padding: 12px 24px;
+}
+
+.w3__button:disabled{
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
+.w3__button[disabled]{
+  background-color: #6c757d;
+  cursor: not-allowed;
+}
